@@ -16,6 +16,10 @@ Welcome to the **Akong'a Labs Open Source Software Bounties Repository**! This r
 
 4. **Winner Determination**: Winners are determined by Pull Request submission timestamp - first **VALID** submission wins.
 
+### ⚠️ **Payment Requirements Warning**
+
+**BEFORE YOU START:** Payments are ONLY processed via Binance using USDT/USDC cryptocurrency. If you cannot receive payments through Binance, do not participate in bounties. See [Payment Process](#payment-process) section for complete details including 6-month forfeiture policy.
+
 ## 🚨 Important Legal Notice
 
 **By opening a Pull Request to this repository, you automatically agree that:**
@@ -233,9 +237,92 @@ If you're new to AI-assisted development:
 
 ## Payment Process
 
-- **Payment Method**: Details will be provided in individual bounty issues
-- **Timeline**: Payment processed within 5 business days of bounty award
-- **Requirements**: Winner must provide necessary payment information and tax documentation if required
+### 🚨 **IMPORTANT: Payment Method Requirements**
+
+**Akong'a Labs ONLY processes payments via Binance using USDT or USDC cryptocurrency.** If you cannot receive payments through this method, please do not participate in bounties.
+
+### Supported Payment Methods
+- **Platform**: Binance exchange only
+- **Currencies**: USDT (Tether) or USDC (USD Coin) only
+- **Network**: Will be specified at time of payment
+- **No Alternatives**: No other payment methods, platforms, or currencies are supported
+
+### Winner Payment Process
+
+#### 1. Winner Notification (Within 24 hours)
+- Winner will be notified via GitHub issue and PR comments
+- Payment instructions will be provided immediately
+- Winner must respond within 48 hours to begin payment process
+
+#### 2. Payment Information Collection (2-3 business days)
+Winner must provide:
+- **Valid Binance account email address**
+- **Binance UID (User ID)**
+- **Preferred currency**: USDT or USDC
+- **Preferred network**: (e.g., Ethereum, Binance Smart Chain, Polygon)
+- **Confirmation of account verification status**
+
+#### 3. Payment Processing (3-5 business days)
+- Payment will be processed within 5 business days of receiving complete information
+- Transaction hash will be provided as confirmation
+- Winner is responsible for monitoring their Binance account
+
+### ⚠️ Forfeiture Policy
+
+#### Automatic Forfeiture Conditions
+Your winnings will be **automatically forfeited** if:
+- You do not have a valid, verified Binance account
+- You cannot or will not provide required payment information
+- You do not respond to payment notifications within specified timeframes
+- You refuse to accept payment via USDT/USDC on Binance
+
+#### 6-Month Holding Period
+- **Winnings Held**: If you forfeit winnings but may be able to claim later, winnings will be held for exactly **6 months** from the original win date
+- **No Extensions**: The 6-month period is absolute with no extensions or exceptions
+- **Claiming Process**: During the 6-month period, you may claim winnings by providing valid Binance payment information
+
+#### Final Forfeiture and Donation
+- **After 6 Months**: Unclaimed winnings are permanently forfeited
+- **OSS Donation**: Forfeited funds will be donated to an open source software repository chosen by [@adrianmurage](https://github.com/adrianmurage)
+- **Public Transparency**: All donations will be publicly documented in this repository
+
+### Payment Timeline Summary
+- **Winner Notification**: Within 24 hours of selection
+- **Information Collection**: 2-3 business days
+- **Payment Processing**: 3-5 business days
+- **Total Timeline**: 5-8 business days for complete payment
+- **Forfeiture Holding**: 6 months maximum
+- **Final Forfeiture**: Automatic after 6 months
+
+### Frequently Asked Questions
+
+#### Q: Can I use a different exchange or wallet?
+**A: No.** Only Binance accounts are supported. No other exchanges, wallets, or payment methods are accepted.
+
+#### Q: Can I receive payment in Bitcoin or other cryptocurrencies?
+**A: No.** Only USDT and USDC are supported.
+
+#### Q: What if I don't have a Binance account?
+**A: You can create one before participating, but you must have a verified account to receive payments. Consider this requirement before starting work on any bounty.**
+
+#### Q: What if Binance is not available in my country?
+**A: Unfortunately, you will not be able to receive payments and should not participate in bounties.**
+
+#### Q: Can the 6-month holding period be extended?
+**A: No.** The 6-month period is absolute with no exceptions.
+
+#### Q: What happens to forfeited funds?
+**A: They are donated to open source software projects chosen by [@adrianmurage](https://github.com/adrianmurage), with full public transparency.**
+
+### Before You Start Any Bounty
+
+**✅ Verify you can receive payments by ensuring you have:**
+- [ ] Active, verified Binance account
+- [ ] Ability to receive USDT or USDC
+- [ ] Understanding of cryptocurrency transactions
+- [ ] Agreement to the 6-month forfeiture policy
+
+**⚠️ By participating in any bounty, you acknowledge and agree to these payment terms.**
 
 ## Communication Guidelines
 
@@ -312,6 +399,8 @@ Before starting any bounty:
 - [ ] Read the bounty issue completely
 - [ ] Understand all technical requirements
 - [ ] Review this README thoroughly
+- [ ] **Verify payment eligibility**: Confirm you have a verified Binance account and can receive USDT/USDC
+- [ ] **Acknowledge forfeiture policy**: Understand the 6-month forfeiture policy for unclaimed winnings
 - [ ] Ask clarifying questions in issue comments
 - [ ] Confirm you can meet the submission timeline
 
